@@ -1,0 +1,276 @@
+# ========================================
+# TERRAFORM FILES
+# ========================================
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+*tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# ========================================
+# ANSIBLE FILES
+# ========================================
+
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# ========================================
+# IDE & EDITOR FILES
+# ========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+.vim/
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ========================================
+# OPERATING SYSTEM FILES
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon
+Icon?
+.DocumentRevisions-V100
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.cache/
+.gvfs/
+
+# ========================================
+# LOG FILES
+# ========================================
+
+*.log
+logs/
+*.log.*
+debug.log
+terraform-debug.log
+*.trace
+
+# ========================================
+# TEMPORARY FILES
+# ========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.swp
+*~
+.#*
+
+# ========================================
+# CREDENTIALS & SECRETS
+# ========================================
+
+# AWS credentials
+.aws/credentials
+.aws/config
+aws_credentials
+
+# SSH keys
+*.pem
+*.pub
+*.key
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+
+# Passwords and tokens
+.env
+.env.local
+.env.*.local
+secrets.txt
+credentials.txt
+api_keys.txt
+tokens.txt
+
+# ========================================
+# BUILD & DISTRIBUTION
+# ========================================
+
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+*.zip
+
+# ========================================
+# DEPENDENCY DIRECTORIES
+# ========================================
+
+node_modules/
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+
+# ========================================
+# PLAN OUTPUT
+# ========================================
+
+tfplan
+tfplan_*
+*.plan
+plan.json
+
+# ========================================
+# BACKUP FILES
+# ========================================
+
+*.bak
+*.backup
+terraform.state.backup
+terraform.tfstate.backup
+*.sql.backup
+db_backup/
+
+# ========================================
+# DOCKER FILES
+# ========================================
+
+.dockerignore
+docker-compose.override.yml
+
+# ========================================
+# MISC FILES
+# ========================================
+
+# Local development files
+local/
+.local/
+private/
+
+# Test outputs
+test-results/
+coverage/
+.coverage
+htmlcov/
+
+# Documentation build files
+docs/_build/
+docs/.buildinfo
+site/
+
+# ========================================
+# PROJECT SPECIFIC
+# ========================================
+
+# Terraform lock file (optional - some teams include this)
+# .terraform.lock.hcl
+
+# Crash dumps
+core.*
+
+# Temporary state backups
+*.tfstate.backup.*.tmp
+
+# Local override files
+local.tfvars
+local_*.tfvars
+
+# ========================================
+# SENSITIVE DATA PATTERNS
+# ========================================
+
+# Any file containing 'secret' in the name
+*secret*
+*password*
+*token*
+*key*
+*credentials*
+
+# ========================================
+# PYTHON SPECIFIC
+# ========================================
+
+*.py[cod]
+*$py.class
+__pycache__/
+.pytest_cache/
+.tox/
+.hypothesis/
+*.cover
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ========================================
+# GIT SPECIFIC
+# ========================================
+
+# Keep .gitignore and .gitkeep
+!.gitkeep
+!.gitignore
