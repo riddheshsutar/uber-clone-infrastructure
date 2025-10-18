@@ -1,9 +1,4 @@
 # 🚕 Uber Clone Infrastructure - AWS Terraform IaC
-
-[![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 > **Production-ready, highly-available AWS infrastructure automation for Uber-like applications using Terraform Infrastructure as Code (IaC)**
 
 This project demonstrates **enterprise-grade infrastructure design** with multi-AZ deployment, automatic failover, and security best practices.
