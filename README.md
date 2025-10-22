@@ -13,27 +13,7 @@ It automates the setup of **networking, compute, storage, and database layers** 
 
 ## 🌐 Project Architecture
 
-### High-Level Design
-
-```
-            ┌──────────────────────────────┐
-            │        Internet Users         │
-            └──────────────┬───────────────┘
-                           │
-                    [ Application Load Balancer ]
-                           │
-                ┌──────────┴──────────┐
-                │                     │
-         [ Private Subnet 1 ]   [ Private Subnet 2 ]
-                │                     │
-         [ EC2 App Server ]     [ EC2 App Server ]
-                │                     │
-                └──────────┬──────────┘
-                           │
-                     [ RDS MySQL DB ]
-                           │
-                   [ CloudWatch Alarms ]
-```
+<img width="1014" height="670" alt="image" src="https://github.com/user-attachments/assets/c1440494-696c-4171-8883-b7a291c537bb" />
 
 **Key AWS Components**
 
