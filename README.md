@@ -1,4 +1,4 @@
-# 🚕 Terraform Infrastructure using AWS & Terraform
+# 🚕 Automating Infrastructure using AWS & Terraform
 
 > **Fully automated AWS infrastructure setup for Uber-like applications using Terraform Infrastructure as Code (IaC).**
 
